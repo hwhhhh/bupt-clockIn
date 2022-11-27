@@ -13,7 +13,7 @@ def main():
     tz = pytz.timezone('Asia/Shanghai')
     data = {}
     try:
-        data = json.loads(os.environ['DATA'])
+        data = json.loads(os.environ['DAKA'])
     except:
         logging.error(" parse json data failed, please check data again")
         return
