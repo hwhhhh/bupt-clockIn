@@ -8,7 +8,7 @@ import pytz
 
 import req_model
 
-# go 1
+# go 2
 def main():
     tz = pytz.timezone('Asia/Shanghai')
     data = {}
